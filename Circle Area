@@ -1,0 +1,15 @@
+Area of Circle = Pi * Radius power by 2
+A = π(r^2)
+A = Area
+Pi = π 
+R = Radius
+
+Input:
+π = 3.14
+R = Input;
+A = ?;
+
+Process:
+A = π(r^2)
+Output
+Print A
