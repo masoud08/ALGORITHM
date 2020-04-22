@@ -1,0 +1,15 @@
+Area of Rectangle = Width * Lenght  
+(A = W.L)
+A = Area
+W = Width 
+L = Lenght
+
+Input:
+W = Input;
+L = Input;
+A = ?;
+
+Process:
+A = w.L
+Output
+Print A
