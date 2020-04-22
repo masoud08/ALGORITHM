@@ -1,0 +1,15 @@
+Area of Triangle = (Height*Base) / 2  
+A = (H.B)/2
+A = Area
+H = Height 
+B = Base
+
+Input:
+H = Input;
+B = Input;
+A = ?;
+
+Process:
+A = (H.B)/2
+Output
+Print A
