@@ -1,0 +1,57 @@
+Create an algorithm which calculates a weekly salary slip.
+Variables:
+N = Name
+HR = Hourly Rate
+WH = Number of worked hours
+O = Overtime (More than 40 hours of work)
+OH = Overtime hourly rate (+20%)
+TC = Tax CPP (4.95%)
+TE = Tax EI (1.8%)
+TT = Total tax = (4.95 + 1.8 = 6.75)
+NI = NEt income (income without tax)
+GI = Gross income (income with tax) = NI - TT
+
+Input:
+N = input;
+HR = input;
+WH = input;
+TC = input;
+TC = input;
+
+Process:
+for WH <= 40:
+  NI1 = (Wh*HR)
+  GI1 = (wh*HR) - (6.75%*NI))
+  
+else:
+  O = WH - 40
+  OH = HR + 20%HR
+  NI2 = (O*OH)
+  GI2 = (O*OH) - (6.75%*NI))
+  
+NI = Sum (NI1+NI2)
+GI = Sum (GI1+GI2)
+output
+Print NI
+Print GI
+    
+Example:
+Diana has worked 46 hours:
+Name = Diana
+HR = $23
+O = 6
+TC = $53.73
+TE = $19.54
+
+for the first 40 hours:
+  NI1 = 40*23 = 920
+  GI1 = 920 - (920*6.75%=62.1) = 857.9
+  
+for the 6 overtime hourse:
+  O = WH - 40 = 46 - 40 = 6
+  OH = 23 + (23*20%= 4.6) = 27.6
+  NI2 = 6 * 27.6 = 165.6
+  GI2 = 165.6 - (165.6*6.75%=11.17125) = 154.43
+  
+NI = Sum (NI1+NI2) = 920 + 165.6 = 1085.6
+GI = Sum (GI1+GI2) = 857.9 + 154.43 = 1012.33
